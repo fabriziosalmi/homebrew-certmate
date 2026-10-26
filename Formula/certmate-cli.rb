@@ -3,8 +3,8 @@ class CertmateCli < Formula
 
   desc "Command-line client for CertMate, the self-hosted TLS certificate manager"
   homepage "https://github.com/fabriziosalmi/certmate"
-  url "https://files.pythonhosted.org/packages/48/08/d106d84df69401fb6dbeede678b72de4a576217250e916570bfc3e2cb4dd/certmate_cli-0.1.5.tar.gz"
-  sha256 "926c5db9b9f4963f7ea031fff2cb3a7a206b7e767cf2adec819aaf14f4a2bb6e"
+  url "https://files.pythonhosted.org/packages/75/b8/dd449afbdf1be5606f3c880ed0197d1b7bb7181b5aaf53d97751c03e8b30/certmate_cli-0.1.6.tar.gz"
+  sha256 "f29ad79eb013527346e9fcf0b7a729fdb4f239a244a8d72867d2dd3ea070646e"
   license "MIT"
 
   depends_on "certifi"
@@ -21,8 +21,8 @@ class CertmateCli < Formula
   end
 
   resource "certmate-sdk" do
-    url "https://files.pythonhosted.org/packages/91/ce/51d3ab9bb09126c2da7a476e713a846a9e0adcd8693e4ce9df1fd3107876/certmate_sdk-0.1.5.tar.gz"
-    sha256 "84940baa0869d42fc7ff9e1c74f3b42786f0eba27b25b045b3672e2aa11b34d7"
+    url "https://files.pythonhosted.org/packages/82/a7/df570eafbfd83c7d8ea888a479a3afe9b9e01c4f8015f6b44b454557dcff/certmate_sdk-0.1.6.tar.gz"
+    sha256 "6832a6c8a25b128ce16d95466c591518b64e1c42b41e9e98a328363f23832ecb"
   end
 
   resource "h11" do
